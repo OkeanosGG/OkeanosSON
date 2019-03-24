@@ -94,9 +94,6 @@ client.on('message', msg => {
   if (msg.content.toLowerCase() === 'emir') {
     msg.channel.sendMessage('**Başarılarını gizlemek, en büyük başarıdır.** ```-Emir```https://gph.is/g/Zxd0V6Z');
   }
-  if (msg.content.toLowerCase() === 'yardım') {
-    msg.channel.sendMessage('geliştirme aşamasındadır');
-  }
   if (msg.content.toLowerCase() === 'highliôre') {
     msg.channel.sendMessage('**Medeniyet, insan olmak ile alakalıdır. Öldürmek ise insani bir dürtü** ```-Highliôre``` https://gph.is/g/E1Redqa');
   }
@@ -105,26 +102,9 @@ if (!msg.content.startsWith(prefix)) {
 }
 if (msg.content.toLowerCase() === prefix + 'nasılsın' ) { msg.channel.sendMessage('https://giphy.com/gifs/2YekIxL017LaJ9zbVX')
 }
-if (msg.content.toLowerCase() === prefix + 'kedi' ) { msg.channel.sendMessage('https://gph.is/g/4wnzzwZ')
-}
-if (msg.content.toLowerCase() === prefix + 'köpek' ) { msg.channel.sendMessage('https://gph.is/g/aXbjpR4')
-}
-if (msg.content.toLowerCase() === prefix + 'sunucununenguzelikim' ) { msg.channel.sendMessage('Tabiki De Sensin :D')
-}
-if (msg.content.toLowerCase() === prefix + 'okeanostext' ) { msg.channel.sendMessage('https://giphy.com/gifs/cRNcdMZ53uK451ZSEp')
-}
-if (msg.content.toLowerCase() === prefix + 'yardım' ) { msg.channel.sendMessage('Komutlar **!nasılsın** **!kedi** **!köpek** **!sunucununenguzelikim** **!okeanostext** **!çayiç**')
-}
 if (msg.content.toLowerCase() === prefix + 'çayiç' ) { msg.channel.sendMessage('https://gph.is/g/aR957OE')
 }
-if (msg.content.toLowerCase() === prefix + 'biladerim_içim' ) { msg.channel.sendMessage('Zencilerim için')
-}
-if (msg.content.toLowerCase() === prefix + 'kardeşler_için' ) { msg.channel.sendMessage('Değil Şçhret Para İçin')
-}
-if (msg.content.toLowerCase() === prefix + 'adam10' ) { msg.channel.sendMessage('okeanos')
-}
-if (msg.content.toLowerCase() === prefix + 'adam11' ) { msg.channel.sendMessage('okeanos')
-}
+
 });
 
 client.elevation = message => {

@@ -149,6 +149,6 @@ aliases: ['havadurumu'],
 
 exports.help = {
   name: 'havadurumu',
-  description: 'İstediğiniz şeyi bota yazdırır.',
+  description: 'Yazdığınız şehirin hava durumunu gösterir.',
   usage: 'havadurumu [duyuru]'
 };
